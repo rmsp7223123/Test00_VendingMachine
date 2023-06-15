@@ -149,12 +149,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <EditText
+            android:id="@+id/edt_insert"
             android:layout_weight="3"
             android:hint="금액을 입력하세요."
             android:layout_width="0dp"
             android:layout_height="wrap_content"/>
 
         <Button
+            android:id="@+id/btn_insert"
             android:layout_weight="1"
             android:text="입력"
             android:layout_width="0dp"
@@ -163,6 +165,7 @@
 
     </LinearLayout>
         <TextView
+            android:id="@+id/change"
             android:layout_marginLeft="5dp"
             android:text="잔액 : 10000원"
             android:layout_width="wrap_content"
@@ -173,6 +176,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp">
         <Button
+            android:id="@+id/btn_change"
             android:layout_margin="10dp"
             android:text="잔돈 반환"
             android:layout_width="match_parent"
